@@ -1,0 +1,47 @@
+html,body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif; 
+}
+
+#nav-img {
+  height: 30px;
+}
+
+.nav-height {
+  height: 70px;
+}
+
+.form-control {
+  width: 250px;
+  height: 30px;
+}
+
+.form-text {
+  font-size:12px;
+}
+
+.btn-warning {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#fire-img {
+  height: 50px;
+}
+
+@media only screen and (max-width:616px ) {
+  .nav-alignment {
+    display: flex;
+    justify-content: center !important; /* needed to add important to override bootstrap css*/
+  }
+
+  /* image has empty space to left so center alignment looked off */
+  #nav-img {
+    margin-right: 10px;
+  }
+}

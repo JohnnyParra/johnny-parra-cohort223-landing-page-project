@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./landing-page-project.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- 1st Row -->
+    <div class="row nav-height d-flex justify-content-center bg-light h-40">
+      <!-- 1st Column (nav-image)-->
+      <div class="col nav-alignment d-flex align-items-center">
+        <img id="nav-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png">
+      </div>
+      <!-- 2nd Column (nav-links) -->
+      <div class="col nav-alignment d-flex justify-content-end align-items-center">
+        <a class="nav-link link-dark" href="#">Features</a>
+        <a class="nav-link link-dark text-nowrap" href="#">How It Works</a>
+        <a class="nav-link link-dark" href="#">Pricing </a>
+      </div>
+    </div>
+    <!-- 2nd Row -->
+    <div class="row">
+      <!-- 1st Column (Email address form) -->
+      <div class="col d-flex flex-column align-items-center mt-2">
+        <h2 class="text-center">Handcrafted, home-made masterpieces</h2>
+        <form class="d-flex flex-column align-items-center mt-1">
+          <div class="mb-2 d-flex flex-column align-items-center">
+            <input type="email" class="form-control" placeholder="Enter email address">
+            <div class="form-text">We'll never share your email.</div>
+          </div>
+          <button type="submit" class="btn btn-warning">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col features-img">
+        <img id="fire-img" src="https://images.getbento.com/accounts/63480c546e690aa2a4d6d1ff27faf453/media/TIXIjxa8Rge0ytawOwIe_2842%20Danielson%20Fuel%20-%20Branding%20-%20Flame.png?w=1000&fit=max&auto=compress,format&h=1000">
+      </div>
+      <div class="col features-txt">
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the 
+          longevity of your purchase.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col features-img">
+        <img id="fire-img" src="https://www.viaondarfid.com.br/wp-content/uploads/2018/06/Acesso-Logistica-Laranja-300x300.png">
+      </div>
+      <div class="col features-txt">
+        <h2>Fast Shipping</h2>
+        <p>We make sure you recieve your trombone as soon as we have finished making it. We
+          also provide free returns if you are not satisfied.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col features-img">
+        <img id="fire-img" src="https://adoebike.store/wp-content/uploads/2021/11/battery.png">
+      </div>
+      <div class="col features-txt">
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we
+          will check and text the pitch of your instrument.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <script>import bootstrap from bootstrap</script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
