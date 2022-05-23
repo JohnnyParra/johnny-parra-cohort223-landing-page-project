@@ -1,5 +1,6 @@
 html,body {
   margin: 0;
+  padding-top: 35px;
 }
 
 h2 {
@@ -30,18 +31,51 @@ h2 {
   align-items: center;
 }
 
-#fire-img {
-  height: 50px;
+.container-width {
+  max-width: 1000px;
 }
 
+#fire-img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.card {
+  min-width: 300px;
+}
+
+
+/* ////////////MEDIA QUERIES///////////// */
+
+/* stacks pricing cards */
+@media only screen and (max-width: 991px ) {
+  .pricing-cards{
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
+  }
+  .card {
+    margin: 2px 0px 5px 0px !important;
+  }
+}
+
+
+/* adjust nav-bar when no room between image and links */
 @media only screen and (max-width:616px ) {
   .nav-alignment {
     display: flex;
-    justify-content: center !important; /* needed to add important to override bootstrap css*/
+    justify-content: center !important;
   }
 
   /* image has empty space to left so center alignment looked off */
   #nav-img {
     margin-right: 10px;
+  }
+}
+
+/* aligns Text */
+@media only screen and (max-width:576px) {
+  .features-txt {
+    text-align: center;
   }
 }
