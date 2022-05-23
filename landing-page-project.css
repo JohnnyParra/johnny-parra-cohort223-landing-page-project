@@ -5,7 +5,10 @@ html,body {
 
 h2 {
   font-size: 24px;
-  font-family: 'Lato', sans-serif; 
+}
+
+h2, h5, p, .card-header, .btn, .link-dark {
+  font-family: 'Lato', sans-serif;
 }
 
 #nav-img {
@@ -44,6 +47,21 @@ h2 {
   min-width: 300px;
 }
 
+
+.anchor-spacing {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  margin-top: -70px;
+}
+
+.link-dark:hover {
+  color: orange;
+}
+
+.link-dark:active {
+  color: rgb(177, 115, 0);
+}
 
 /* ////////////MEDIA QUERIES///////////// */
 
