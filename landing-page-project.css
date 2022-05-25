@@ -92,7 +92,7 @@ h2, h5, p, .card-header, .btn, .link-dark {
 }
 
 /* aligns Text */
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:575px) {
   .features-txt {
     text-align: center;
   }
